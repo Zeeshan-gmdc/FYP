@@ -115,3 +115,26 @@ function easeInOutCubic(t, b, c, d) {
     t -= 2;
     return c / 2 * (t * t * t + 2) + b;
 };
+
+
+
+
+
+
+
+function act(o) {
+
+    var e = document.getElementById("social-links").getElementsByClassName("active")[0];
+
+    e.setAttribute("class", "social-icons");
+
+    document.getElementById(o).setAttribute("class", "social-icons active");
+
+
+
+    // var b = e.getAttribute("id");
+    // console.log(b);
+    // console.log(o);
+    // document.getElementById(b + "-text").setAttribute("class", "texthidden");
+    // document.getElementById(o + "-text").setAttribute("class", "col-md-7 ");
+}

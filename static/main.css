@@ -443,6 +443,16 @@
             border: 1px solid #8B89E5;
         }
         
+        .active {
+            background-color: #31d7a9;
+            color: white;
+        }
+        
+        .social-icons:hover {
+            background-color: #31d7a9;
+            color: white;
+        }
+        
         .footer-div {
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             padding-bottom: 40px;
